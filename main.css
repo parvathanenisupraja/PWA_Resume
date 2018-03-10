@@ -1,0 +1,87 @@
+.maindiv{
+   background: white;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+.sub1{
+   background: green;
+   border-radius: 25px;
+   box-shadow: 2px 3px 0 0 black;
+}
+
+.sub2{
+    background: yellow;
+    border-radius: 25px;
+    box-shadow: 2px 3px 0 0  black;
+}
+
+.sub3{
+  background: red;
+  border-radius: 25px;
+  box-shadow: 2px 3px 0 0 black;
+}
+
+body{
+  background: pink;
+  text-align: center;
+
+}
+
+.images1{
+  padding: 20px;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.images2{
+  padding: 20px;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.images3{
+  padding: 20px;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+@media all and (max-width:700px) {
+  .maindiv{
+    flex-wrap: wrap;
+  }
+  .sub1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+
+  }
+  .sub2{
+    height: 200px;
+width: 100%;
+margin-bottom: 10px;
+display: flex;
+
+  }
+  .sub3{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+  }
+.images1{
+  height: 150px;
+  border-radius: 30px;
+}
+.images2{
+  height: 150px;
+  border-radius: 30px;
+}
+.images3{
+  height: 150px;
+  border-radius: 30px;
+}
+}
